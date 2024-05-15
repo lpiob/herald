@@ -1,0 +1,22 @@
+{
+  "name": "herald",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.18.0",
+    "advisory-lock": "^2.0.0",
+    "bree": "^9.2.3",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.7"
+  }
+}
