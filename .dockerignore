@@ -2,5 +2,7 @@
 /node_modules
 .dockerignore
 .env
+.envrc
 Dockerfile
 fly.toml
+.eslintrc.yml
