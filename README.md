@@ -4,6 +4,12 @@ Bot na slacka ktory publikuje informacje o kontach które zostały dopiero aktyw
 
 Zainspirowany https://rachelbythebay.com/w/2024/02/08/ldap/
 
+Przygotowany do uruchomienia na fly.io. Przystosowany do działania w oparciu o wiele workspace'ów jednocześnie.
+
+Ogłoszenia umieszczane przez bota nie wysyłają powiadomień do mentionowanych osób. Pozwala to w dość elegancki sposób przedstawić nowego pracownika innym, bez powiadamiania go o tym i stresowania w pierwszym dniu pracy. Osoby które odeszły też są mentionowane dopiero po deaktywacji konta, więc siłą rzeczy nie mogą się odnieść do komentarzy.
+
+Bot jest obecnie używany w postaci oddolnej mojej inicjatywy w workspace Unity Group.
+
 ## FSM
 
 Do działania bota potrzebna jest informacja o tym, że ktoś został zatrudniony lub zwolniony.
